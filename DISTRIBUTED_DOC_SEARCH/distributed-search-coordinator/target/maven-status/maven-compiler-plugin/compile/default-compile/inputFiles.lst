@@ -1,0 +1,16 @@
+C:\Users\tao.wang\Projects\DISTRIBUTED_SYSTEM\DISTRIBUTED_DOC_SEARCH\distributed-search-coordinator\src\main\java\model\proto\SearchModel.java
+C:\Users\tao.wang\Projects\DISTRIBUTED_SYSTEM\DISTRIBUTED_DOC_SEARCH\distributed-search-coordinator\src\main\java\model\Task.java
+C:\Users\tao.wang\Projects\DISTRIBUTED_SYSTEM\DISTRIBUTED_DOC_SEARCH\distributed-search-coordinator\src\main\java\cluster\management\LeaderElection.java
+C:\Users\tao.wang\Projects\DISTRIBUTED_SYSTEM\DISTRIBUTED_DOC_SEARCH\distributed-search-coordinator\src\main\java\cluster\management\OnElectionCallback.java
+C:\Users\tao.wang\Projects\DISTRIBUTED_SYSTEM\DISTRIBUTED_DOC_SEARCH\distributed-search-coordinator\src\main\java\model\Result.java
+C:\Users\tao.wang\Projects\DISTRIBUTED_SYSTEM\DISTRIBUTED_DOC_SEARCH\distributed-search-coordinator\src\main\java\Application.java
+C:\Users\tao.wang\Projects\DISTRIBUTED_SYSTEM\DISTRIBUTED_DOC_SEARCH\distributed-search-coordinator\src\main\java\networking\WebClient.java
+C:\Users\tao.wang\Projects\DISTRIBUTED_SYSTEM\DISTRIBUTED_DOC_SEARCH\distributed-search-coordinator\src\main\java\search\TFIDF.java
+C:\Users\tao.wang\Projects\DISTRIBUTED_SYSTEM\DISTRIBUTED_DOC_SEARCH\distributed-search-coordinator\src\main\java\model\SerializationUtils.java
+C:\Users\tao.wang\Projects\DISTRIBUTED_SYSTEM\DISTRIBUTED_DOC_SEARCH\distributed-search-coordinator\src\main\java\search\SearchCoordinator.java
+C:\Users\tao.wang\Projects\DISTRIBUTED_SYSTEM\DISTRIBUTED_DOC_SEARCH\distributed-search-coordinator\src\main\java\networking\OnRequestCallback.java
+C:\Users\tao.wang\Projects\DISTRIBUTED_SYSTEM\DISTRIBUTED_DOC_SEARCH\distributed-search-coordinator\src\main\java\model\DocumentData.java
+C:\Users\tao.wang\Projects\DISTRIBUTED_SYSTEM\DISTRIBUTED_DOC_SEARCH\distributed-search-coordinator\src\main\java\OnElectionAction.java
+C:\Users\tao.wang\Projects\DISTRIBUTED_SYSTEM\DISTRIBUTED_DOC_SEARCH\distributed-search-coordinator\src\main\java\search\SearchWorker.java
+C:\Users\tao.wang\Projects\DISTRIBUTED_SYSTEM\DISTRIBUTED_DOC_SEARCH\distributed-search-coordinator\src\main\java\networking\WebServer.java
+C:\Users\tao.wang\Projects\DISTRIBUTED_SYSTEM\DISTRIBUTED_DOC_SEARCH\distributed-search-coordinator\src\main\java\cluster\management\ServiceRegistry.java

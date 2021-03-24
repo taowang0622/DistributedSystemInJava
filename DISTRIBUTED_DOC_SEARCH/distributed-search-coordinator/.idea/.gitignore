@@ -1,0 +1,8 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Datasource local storage ignored files
+/../../../../../../../../:\Users\tao.wang\Projects\DISTRIBUTED_SYSTEM\DISTRIBUTED_DOC_SEARCH\distributed-search-coordinator\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/

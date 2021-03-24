@@ -1,0 +1,23 @@
+# base image
+# docker client/cmd would copy all files in where this file lies into the docker daemon
+FROM maven:3.6.1-jdk-11 AS MAVEN_TOOL_CHAIN_CONTAINER
+# this command should be failed, because "./src" already exists   
+RUN mkdir src
+COPY src /tmp/src
+COPY ./pom.xml /tmp/
+WORKDIR /tmp/
+RUN mvn package
+RUN ls -la /tmp
+
+# another base image 
+# ==> multi-stage build 
+# ==> allows you to drastically reduce the size of your final image, without struggling to reduce the number of "intermediate layers and files"
+FROM openjdk:11
+COPY --from=MAVEN_TOOL_CHAIN_CONTAINER /tmp/target/webapp-1.0-SNAPSHOT-jar-with-dependencies.jar /tmp/
+# instructions after this one would be run with this directory as working directory!!
+WORKDIR /tmp/
+# ENTRYPOINT sets "the shell command" bound to "docker run *image built with this file* *command params*"
+# Docker has a default entrypoint which is "/bin/sh -c" but does not have a default command.
+ENTRYPOINT ["java","-jar", "webapp-1.0-SNAPSHOT-jar-with-dependencies.jar"]
+# CMD sets the default command params after "build run *the image*" 
+CMD ["80", "Server Name"]
